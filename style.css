@@ -1,0 +1,82 @@
+html,
+body {
+    font-family: 'Prompt', sans-serif;
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-header {
+    background-color: rgb(255, 183, 49);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.menu-item {
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.brand {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.main-content {
+    max-width: 700px;
+    margin: auto;
+    padding: 70px;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    margin: 30px;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+}
+
+.button {
+    color: black;
+    background-color: lightgrey;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.bottom-footer {
+    background-color: rgb(255, 183, 49);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.live {
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.views {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    position: absolute;
+    padding: 5px 10px;
+    bottom: 195px;
+    left: 30px;
+}
