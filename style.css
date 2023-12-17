@@ -80,3 +80,20 @@ body {
     bottom: 195px;
     left: 30px;
 }
+
+.sam-botton {
+        border-color: rgba(0,0,0,0);
+        border-radius: 0px;
+        letter-spacing: 2px;
+        font-size: 18px;
+        font-weight: 700!important;
+        background-color: #bb7860;
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+        display: inline-block;
+}
+
+.sam-botton {
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
