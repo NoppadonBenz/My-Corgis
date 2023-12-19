@@ -38,22 +38,34 @@ body {
     background-color: white;
     padding: 20px;
     margin: 30px;
-    position: relative;
 }
 
 .image {
     width: 100%;
 }
 
-.button {
-    color: black;
-    background-color: lightgrey;
+.read-more-button {
+    color: white;
+    background-color: rgb(255, 183, 49);
     padding: 10px;
     text-decoration: none;
     display: inline-block;
+    border-radius: 10px;
 }
 
-.bottom-footer {
+.bottom-footer-fix-position {
+    background-color: rgb(255, 183, 49);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom-main-footer {
     background-color: rgb(255, 183, 49);
     padding: 20px;
     text-align: center;
@@ -79,4 +91,23 @@ body {
     padding: 5px 10px;
     bottom: 195px;
     left: 30px;
+}
+
+.home-bttn {
+    color: white;
+    background-color: rgb(255, 183, 49);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.back-home-button {
+    color: white;
+    background-color: rgb(255, 183, 49);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 25px;
 }
