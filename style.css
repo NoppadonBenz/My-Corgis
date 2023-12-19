@@ -73,26 +73,6 @@ body {
     font-size: 20px;
 }
 
-.live {
-    color: white;
-    background-color: red;
-    font-size: 20px;
-    padding: 5px 10px;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-}
-
-.views {
-    color: white;
-    background-color: black;
-    font-size: 20px;
-    position: absolute;
-    padding: 5px 10px;
-    bottom: 195px;
-    left: 30px;
-}
-
 .home-bttn {
     color: white;
     background-color: rgb(255, 183, 49);
